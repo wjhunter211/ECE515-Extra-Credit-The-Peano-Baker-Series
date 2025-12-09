@@ -7,7 +7,7 @@ In control theory, the solution to the state at every point in time is given by 
 For LTI systems, the solution involves the **matrix exponential**:
 
 $$
-x(t) = e^{At} x_0 + \int_{t_0}^{t} e^{A(t-s)}\, B\, u(s)\, ds
+x(t) = e^{At} x_0 + \int_{t_0}^{t} e^{A(t-s)} B u(s) ds
 $$
 
 
@@ -15,7 +15,7 @@ $$
 For LTV systems, the solution involves the **state transition matrix (STM)**, denoted by $\phi$:
 
 $$
-x(t) = \phi(t, t_0)\, x_0 + \int_{t_0}^{t} \phi(t, s)\, B(s)\, u(s)\, ds
+x(t) = \phi(t, t_0) x_0 + \int_{t_0}^{t} \phi(t, s) B(s) u(s) ds
 $$
 
 
