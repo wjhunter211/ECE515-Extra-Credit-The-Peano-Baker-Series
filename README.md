@@ -1,4 +1,4 @@
-# The Peano-Baker Series: Technical Introduction
+# The Peano-Baker Series: Introduction
 
 In control theory, the solution to the state at every point in time is given by the **variation-of-constants formula**.
 
