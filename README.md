@@ -43,5 +43,7 @@ $$
 $$
 
 This limit exists and the series is guaranteed to converge to a solution as long as A(t) is element-wise continuous. Note that if one plugs in a time-invariant A into the Peano-Baker Series, the solution will converge to $\phi(t,t_0)=e^{A(t-t_0)}$, therefore recovering the LTI variation-of-constants formula. 
-##
+
+# Summary of Content/Results
+
 This repository contains a Jupyter Notebook in Python that takes a system matrix A, a desired number of terms, and integration bounds as inputs to compute the state-transition matrix via the Peano-Baker Series. The program will allow LTI and LTV inputs, print partial sums to show convergence as terms are added, and plot each element of $\phi$ over time to show behavior. The instructions and documentation will be presented in the form of comments throughout the code so that the user is able to follow along with each section. 
