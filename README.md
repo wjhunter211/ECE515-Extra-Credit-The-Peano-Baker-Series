@@ -3,4 +3,4 @@ $x(t)=e^{At}x_0+\int^{t}_{t_0}e^{A(t-s)}Bu(s)ds$
 # However, for Linear-Time-Variant (LTV) systems, it involves the state transition matrix (STM), denoted as $\phi$:
 $x(t)=\phi(t,t_0)x_0+\int^{t}_{t_0}\phi(t,s)B(s)u(s)ds$
 # The primary way to determine it is by computing the Peano-Baker series: a series of nested integrals of A(t) as follows:
-$\phi(t, t_0)=I+\int^{t}_{t_0}A(s)ds+\int^{t}_{t_0}A(s_1) \int^{s_1}_{t_0}A(s_2)ds_2ds_1 + \int^{t}_{t_0}A(s_1)\int^{s_1}_{t_0}A(s_2)\int^{s_2}_{t_0}A(s_3)ds_3ds_2ds_1.....$
+$\phi(t, t_0)=I+\int^{t}_{t_0}A(s)ds+\int^{t}_{t_0}A(s_1) \int^{s_1}_{t_0}A(s_2)ds_2ds_1 + \int^{t}_{t_0}A(s_1)\int^{s_1}_{t_0}A(s_2)\int^{s_2}_{t_0}A(s_3)ds_3ds_2ds_1 + \cdots$
