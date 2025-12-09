@@ -42,5 +42,5 @@ $$
 \phi(t,t_0)=\lim_{k\rightarrow \infty} M_k(t,t_0)
 $$
 
-This limit exists and the series is guaranteed to converge to a solution as long as A(t) is element-wise continuous. 
+This limit exists and the series is guaranteed to converge to a solution as long as A(t) is element-wise continuous. Note that if one plugs in a time-invariant A into the Peano-Baker Series, the solution will collapse to $\phi(t,t_0)=e^{A(t-t_0)}, therefore recovering the LTI variation-of-constants formula. 
 ##
