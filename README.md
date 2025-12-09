@@ -26,16 +26,21 @@ $$
 \phi(t, t_0)=I+\int_{t_0}^{t}A(s_1)ds_1+\int_{t_0}^{t}A(s_1)\int_{t_0}^{s_1}A(s_2)ds_2ds_1+\int_{t_0}^{t}A(s_1)\int_{t_0}^{s_1}A(s_2)\int_{t_0}^{s_2}A(s_3)ds_3ds_2ds_1+\cdots
 $$
 
+
 In compact form, we can write the following:
+
 
 $$
 k=0, \quad M_0(t,t_0)=I
 $$
+
 $$
 k \geq 1, \quad M_k(t,t_0)=I+\int^{t}_{t_0}A(s)M_{k-1}(s,t_0)ds
 $$
+
 $$
 \phi(t,t_0)=\lim_{k\rightarrow \infty} M_k(t,t_0)
 $$
+
 This limit exists and the series is guaranteed to converge to a solution as long as A(t) is element-wise continuous. 
 ##
