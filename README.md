@@ -4,7 +4,7 @@ In control theory, the solution to the state of a dynamical system with control 
 
 
 
-For linear-time-invariant (LTI) systems i.e. $A$ and $B$ do not depend on time, the solution involves the **matrix exponential**:
+For linear-time-invariant (LTI) systems, the solution involves the **matrix exponential**:
 
 $$
 x(t) = e^{A(t-t_0)} x_0 + \int_{t_0}^{t} e^{A(t-s)} B u(s) ds
@@ -12,7 +12,7 @@ $$
 
 
 
-For LTV systems, the solution involves the **state transition matrix (STM)**, denoted by $\phi$:
+For linear-time-variant (LTV) systems, the solution involves the **state transition matrix (STM)**, denoted by $\phi$:
 
 $$
 x(t) = \phi(t, t_0) x_0 + \int_{t_0}^{t} \phi(t, s) B(s) u(s) ds
@@ -46,4 +46,4 @@ This limit exists and the series is guaranteed to converge to a solution as long
 
 # Summary of Content/Results
 
-This repository contains a Jupyter Notebook in Python that takes a system matrix A, a desired number of terms, and integration bounds as inputs to compute the state-transition matrix via the Peano-Baker Series. The program will allow LTI and LTV inputs, print partial sums to show convergence as terms are added, and plot each element of $\phi$ over time to show behavior. The instructions and documentation are presented in the form of comments throughout the code so that the user is able to follow along with each section; "Example" contains an instance of the code using the 2-dimensional identity matrix as an illustrative example, and "User Code" contains what the user should download (the example from before appears again by default so that the user immediately knows how the inputs should look). 
+This repository contains a Jupyter Notebook in Python that takes a system matrix A, a desired number of terms, and integration bounds as inputs to compute the state-transition matrix via the Peano-Baker Series. The program will allow LTI and LTV inputs, print partial sums to show convergence as terms are added, and plot each element of $\phi$ over time to show behavior. The instructions and documentation are presented in the form of comments throughout the code so that the user is able to follow along with each section; "Example" contains an instance of the code using the 2-dimensional identity matrix as an illustrative example, and "User Code" contains what the user should download (an LTV example appears by default so that the user immediately knows how the inputs should look). 
