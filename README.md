@@ -42,7 +42,7 @@ $$
 \phi(t,t_0)=\lim_{k\rightarrow \infty} M_k(t,t_0)
 $$
 
-This limit exists and the series is guaranteed to converge to a unique solution as long as A(t) is element-wise continuous. Note that if one inputs a time-invariant A into the series, the solution will converge to $\phi(t,t_0)=e^{A(t-t_0)}$, thereby recovering the LTI variation-of-constants formula. 
+This limit exists and the series is guaranteed to converge to a unique solution as long as A(t) is element-wise continuous. Note that if one inputs a time-invariant A into the series, the solution will converge to $\phi(t,t_0)=e^{A(t-t_0)}$, thereby recovering the LTI variation-of-constants formula. Other relevant properties of the STM include $\phi(t,t)=I$, $\phi(t,t_0)=\phi(t,t_1)\phi(t_1,t_0)$, and that $\phi$ is invertible for all time such that $\phi(t,t_0)^{-1}=\phi(t_0,t)$. 
 
 # Summary of Content/Results
 
