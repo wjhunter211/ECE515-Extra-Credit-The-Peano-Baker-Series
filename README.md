@@ -4,7 +4,7 @@ In control theory, the solution to the state of a dynamical system with control 
 
 
 
-For LTI systems, the solution involves the **matrix exponential**:
+For linear-time-invariant (LTI) systems i.e. $A$ and $B$ do not depend on time, the solution involves the **matrix exponential**:
 
 $$
 x(t) = e^{A(t-t_0)} x_0 + \int_{t_0}^{t} e^{A(t-s)} B u(s) ds
