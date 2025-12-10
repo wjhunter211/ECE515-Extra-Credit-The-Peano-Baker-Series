@@ -27,7 +27,7 @@ $$
 $$
 
 
-In compact form, we can write the following:
+The position of each argument in $\phi$ dictates the integral bounds. In compact form, we can write the following:
 
 
 $$
