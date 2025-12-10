@@ -1,6 +1,6 @@
 # The Peano-Baker Series: Introduction
 
-In control theory, the solution to the state at every point in time is given by the **variation-of-constants formula**.
+In control theory, the solution to the state of a dynamical system with control input $u$ is given by the **variation-of-constants formula**.
 
 
 
